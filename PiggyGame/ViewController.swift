@@ -15,8 +15,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    var num = 17
-    // not legal
+    var num = 18
+    // legal
 
 
 }
