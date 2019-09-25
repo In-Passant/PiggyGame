@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37DF617E233BAD0B00944B56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DF617D233BAD0B00944B56 /* AppDelegate.swift */; };
+		37DF6180233BAD0B00944B56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DF617F233BAD0B00944B56 /* ViewController.swift */; };
+		37DF6183233BAD0B00944B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37DF6181233BAD0B00944B56 /* Main.storyboard */; };
+		37DF6185233BAD0C00944B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37DF6184233BAD0C00944B56 /* Assets.xcassets */; };
+		37DF6188233BAD0C00944B56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37DF6186233BAD0C00944B56 /* LaunchScreen.storyboard */; };
+		37DF6193233BAD0C00944B56 /* PiggyGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DF6192233BAD0C00944B56 /* PiggyGameTests.swift */; };
+		37DF619E233BAD0C00944B56 /* PiggyGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DF619D233BAD0C00944B56 /* PiggyGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37DF618F233BAD0C00944B56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37DF6172233BAD0B00944B56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37DF6179233BAD0B00944B56;
+			remoteInfo = PiggyGame;
+		};
+		37DF619A233BAD0C00944B56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37DF6172233BAD0B00944B56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37DF6179233BAD0B00944B56;
+			remoteInfo = PiggyGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37DF617A233BAD0B00944B56 /* PiggyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiggyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DF617D233BAD0B00944B56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37DF617F233BAD0B00944B56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37DF6182233BAD0B00944B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37DF6184233BAD0C00944B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37DF6187233BAD0C00944B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37DF6189233BAD0C00944B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37DF618E233BAD0C00944B56 /* PiggyGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiggyGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DF6192233BAD0C00944B56 /* PiggyGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiggyGameTests.swift; sourceTree = "<group>"; };
+		37DF6194233BAD0C00944B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37DF6199233BAD0C00944B56 /* PiggyGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiggyGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DF619D233BAD0C00944B56 /* PiggyGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiggyGameUITests.swift; sourceTree = "<group>"; };
+		37DF619F233BAD0C00944B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37DF6177233BAD0B00944B56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DF618B233BAD0C00944B56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DF6196233BAD0C00944B56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37DF6171233BAD0B00944B56 = {
+			isa = PBXGroup;
+			children = (
+				37DF617C233BAD0B00944B56 /* PiggyGame */,
+				37DF6191233BAD0C00944B56 /* PiggyGameTests */,
+				37DF619C233BAD0C00944B56 /* PiggyGameUITests */,
+				37DF617B233BAD0B00944B56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37DF617B233BAD0B00944B56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37DF617A233BAD0B00944B56 /* PiggyGame.app */,
+				37DF618E233BAD0C00944B56 /* PiggyGameTests.xctest */,
+				37DF6199233BAD0C00944B56 /* PiggyGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37DF617C233BAD0B00944B56 /* PiggyGame */ = {
+			isa = PBXGroup;
+			children = (
+				37DF617D233BAD0B00944B56 /* AppDelegate.swift */,
+				37DF617F233BAD0B00944B56 /* ViewController.swift */,
+				37DF6181233BAD0B00944B56 /* Main.storyboard */,
+				37DF6184233BAD0C00944B56 /* Assets.xcassets */,
+				37DF6186233BAD0C00944B56 /* LaunchScreen.storyboard */,
+				37DF6189233BAD0C00944B56 /* Info.plist */,
+			);
+			path = PiggyGame;
+			sourceTree = "<group>";
+		};
+		37DF6191233BAD0C00944B56 /* PiggyGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				37DF6192233BAD0C00944B56 /* PiggyGameTests.swift */,
+				37DF6194233BAD0C00944B56 /* Info.plist */,
+			);
+			path = PiggyGameTests;
+			sourceTree = "<group>";
+		};
+		37DF619C233BAD0C00944B56 /* PiggyGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37DF619D233BAD0C00944B56 /* PiggyGameUITests.swift */,
+				37DF619F233BAD0C00944B56 /* Info.plist */,
+			);
+			path = PiggyGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37DF6179233BAD0B00944B56 /* PiggyGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37DF61A2233BAD0C00944B56 /* Build configuration list for PBXNativeTarget "PiggyGame" */;
+			buildPhases = (
+				37DF6176233BAD0B00944B56 /* Sources */,
+				37DF6177233BAD0B00944B56 /* Frameworks */,
+				37DF6178233BAD0B00944B56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiggyGame;
+			productName = PiggyGame;
+			productReference = 37DF617A233BAD0B00944B56 /* PiggyGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37DF618D233BAD0C00944B56 /* PiggyGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37DF61A5233BAD0C00944B56 /* Build configuration list for PBXNativeTarget "PiggyGameTests" */;
+			buildPhases = (
+				37DF618A233BAD0C00944B56 /* Sources */,
+				37DF618B233BAD0C00944B56 /* Frameworks */,
+				37DF618C233BAD0C00944B56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37DF6190233BAD0C00944B56 /* PBXTargetDependency */,
+			);
+			name = PiggyGameTests;
+			productName = PiggyGameTests;
+			productReference = 37DF618E233BAD0C00944B56 /* PiggyGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37DF6198233BAD0C00944B56 /* PiggyGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37DF61A8233BAD0C00944B56 /* Build configuration list for PBXNativeTarget "PiggyGameUITests" */;
+			buildPhases = (
+				37DF6195233BAD0C00944B56 /* Sources */,
+				37DF6196233BAD0C00944B56 /* Frameworks */,
+				37DF6197233BAD0C00944B56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37DF619B233BAD0C00944B56 /* PBXTargetDependency */,
+			);
+			name = PiggyGameUITests;
+			productName = PiggyGameUITests;
+			productReference = 37DF6199233BAD0C00944B56 /* PiggyGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37DF6172233BAD0B00944B56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Garcia, Alejandro";
+				TargetAttributes = {
+					37DF6179233BAD0B00944B56 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					37DF618D233BAD0C00944B56 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 37DF6179233BAD0B00944B56;
+					};
+					37DF6198233BAD0C00944B56 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 37DF6179233BAD0B00944B56;
+					};
+				};
+			};
+			buildConfigurationList = 37DF6175233BAD0B00944B56 /* Build configuration list for PBXProject "PiggyGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37DF6171233BAD0B00944B56;
+			productRefGroup = 37DF617B233BAD0B00944B56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37DF6179233BAD0B00944B56 /* PiggyGame */,
+				37DF618D233BAD0C00944B56 /* PiggyGameTests */,
+				37DF6198233BAD0C00944B56 /* PiggyGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37DF6178233BAD0B00944B56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DF6188233BAD0C00944B56 /* LaunchScreen.storyboard in Resources */,
+				37DF6185233BAD0C00944B56 /* Assets.xcassets in Resources */,
+				37DF6183233BAD0B00944B56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DF618C233BAD0C00944B56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DF6197233BAD0C00944B56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37DF6176233BAD0B00944B56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DF6180233BAD0B00944B56 /* ViewController.swift in Sources */,
+				37DF617E233BAD0B00944B56 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DF618A233BAD0C00944B56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DF6193233BAD0C00944B56 /* PiggyGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DF6195233BAD0C00944B56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DF619E233BAD0C00944B56 /* PiggyGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37DF6190233BAD0C00944B56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37DF6179233BAD0B00944B56 /* PiggyGame */;
+			targetProxy = 37DF618F233BAD0C00944B56 /* PBXContainerItemProxy */;
+		};
+		37DF619B233BAD0C00944B56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37DF6179233BAD0B00944B56 /* PiggyGame */;
+			targetProxy = 37DF619A233BAD0C00944B56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37DF6181233BAD0B00944B56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37DF6182233BAD0B00944B56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37DF6186233BAD0C00944B56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37DF6187233BAD0C00944B56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37DF61A0233BAD0C00944B56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37DF61A1233BAD0C00944B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37DF61A3233BAD0C00944B56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H53KBKSRT;
+				INFOPLIST_FILE = PiggyGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Garcia.Alejandro.PiggyGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37DF61A4233BAD0C00944B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H53KBKSRT;
+				INFOPLIST_FILE = PiggyGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Garcia.Alejandro.PiggyGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37DF61A6233BAD0C00944B56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H53KBKSRT;
+				INFOPLIST_FILE = PiggyGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Garcia.Alejandro.PiggyGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiggyGame.app/PiggyGame";
+			};
+			name = Debug;
+		};
+		37DF61A7233BAD0C00944B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H53KBKSRT;
+				INFOPLIST_FILE = PiggyGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Garcia.Alejandro.PiggyGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiggyGame.app/PiggyGame";
+			};
+			name = Release;
+		};
+		37DF61A9233BAD0C00944B56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H53KBKSRT;
+				INFOPLIST_FILE = PiggyGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Garcia.Alejandro.PiggyGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PiggyGame;
+			};
+			name = Debug;
+		};
+		37DF61AA233BAD0C00944B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H53KBKSRT;
+				INFOPLIST_FILE = PiggyGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Garcia.Alejandro.PiggyGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PiggyGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37DF6175233BAD0B00944B56 /* Build configuration list for PBXProject "PiggyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DF61A0233BAD0C00944B56 /* Debug */,
+				37DF61A1233BAD0C00944B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37DF61A2233BAD0C00944B56 /* Build configuration list for PBXNativeTarget "PiggyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DF61A3233BAD0C00944B56 /* Debug */,
+				37DF61A4233BAD0C00944B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37DF61A5233BAD0C00944B56 /* Build configuration list for PBXNativeTarget "PiggyGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DF61A6233BAD0C00944B56 /* Debug */,
+				37DF61A7233BAD0C00944B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37DF61A8233BAD0C00944B56 /* Build configuration list for PBXNativeTarget "PiggyGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DF61A9233BAD0C00944B56 /* Debug */,
+				37DF61AA233BAD0C00944B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37DF6172233BAD0B00944B56 /* Project object */;
+}
